@@ -1,6 +1,11 @@
 ﻿body {
     background-color: #9edae5;
 }
+#principal
+{
+    width: 960px;
+    margin : 0 auto 0 auto ;
+}
 a{
     text-decoration:none;
 }
@@ -10,5 +15,47 @@ a:hover{
 
 nav a{
     color : #e575f6;
+    
 }
-       
+#chp1 {
+    width: 320px;
+    float: left;
+}
+#chp2 {
+    width: 320px;
+    float: left;
+}
+#chp3 {
+    width: 320px;
+    float: left;
+}
+#chap1 {
+    border: solid blue 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 450px;
+    float: left;
+}
+#chap2 {
+    border: solid white 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 450px;
+    float: left;
+}
+#chap3 {
+    border: solid red 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    clear : both;
+}    
